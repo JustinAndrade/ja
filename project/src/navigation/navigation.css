@@ -1,0 +1,62 @@
+h1 {
+	font-size: 24px;
+	margin: 0 20px;
+}
+
+img {
+	height: 80px;
+	width: auto;
+}
+
+a {
+	color: #000;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+span {
+	color: rgb(28, 168, 0);
+	font-weight: 400;
+}
+
+.mainHeader {
+	font-size: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 1px 2px 3px #000;
+}
+
+.navbar {
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+	height: 100px;
+	background: #ffffff;
+}
+
+.logo {
+	margin-left: 25px;
+}
+
+.navItems {
+	display: flex;
+	align-content: center;
+	align-self: center;
+}
+
+a.navItem {
+	color: #000;
+	font-size: 18px;
+	padding: 5px 20px;
+	margin: 0 15px;
+	text-decoration: none;
+}
+
+a.navItem:hover {
+	border: 1px solid black;
+	color: rgb(28, 168, 0);
+	text-shadow: 1px 1px #555;
+	opacity: 0.5;
+	box-shadow: 1px 1px #000;
+}

@@ -1,0 +1,77 @@
+h2 {
+	font-size: 32px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.homeContainer {
+	height: 716px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.aboutMe {
+	width: 500px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.skills {
+	background: #ffffff;
+	box-shadow: 2px 1px 5px #000;
+	width: 800px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.languages {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact {
+	height: 600px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topInput {
+	margin: 0 20px;
+	padding: 20px 10px;
+	width: 500px;
+	text-align: start;
+}
+
+.bottomInput {
+	margin: 20px 0;
+	padding: 20px 10px;
+	width: 1065px;
+	text-align: start;
+}
+
+.messageInput {
+	margin: 20px 0;
+	padding: 20px 10px;
+	width: 1065px;
+	height: 300px;
+	text-align: start;
+}
+
+button {
+	background: rgb(28, 168, 0);
+	border: 1px solid black;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	padding: 10px 30px;
+}
+
+button:hover {
+	cursor: pointer;
+}
