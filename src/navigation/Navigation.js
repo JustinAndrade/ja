@@ -16,13 +16,13 @@ const Navigation = () => {
 			</div>
 			<div className="navItems">
 				<ul>
-					<NavLink className="navItem" to="/">
+					<NavLink className="navItem" to="/ja">
 						Home
 					</NavLink>
-					<NavLink className="navItem" to="/portfolio">
+					<NavLink className="navItem" to="/ja/portfolio">
 						Portfolio
 					</NavLink>
-					<NavLink className="navItem" to="/about">
+					<NavLink className="navItem" to="/ja/about">
 						Contact
 					</NavLink>
 					<a
