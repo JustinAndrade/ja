@@ -3,9 +3,9 @@ import { Route } from 'react-router-dom';
 
 import './App.css';
 
-import { Contact, Home, Portfolio } from './pages/index.js.js';
+import { Contact, Home, Portfolio } from './pages/index.js';
 
-import Navigation from './navigation/Navigation.js.js';
+import Navigation from './navigation/Navigation.js';
 
 function App() {
 	return (
@@ -15,7 +15,7 @@ function App() {
 				<Route exact path="/" component={Home} />
 				<Route exact path="/about" component={Contact} />
 				<Route exact path="/portfolio" component={Portfolio} />
-				<Route path="resume" component={Contact} />
+				<Route path="/resume" component={Contact} />
 			</main>
 		</div>
 	);
