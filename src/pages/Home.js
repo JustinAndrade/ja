@@ -5,6 +5,8 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 import './pages.css';
 
+import header from '../img/header.jpg';
+
 const Home = () => {
 	return (
 		<div>
@@ -13,6 +15,7 @@ const Home = () => {
 				<div className="codeBorder">
 					<FontAwesomeIcon icon={faCode} size="2x" />
 				</div>
+				<img src={header} />
 				<div className="skills">
 					<div className="aboutMe">
 						<h2>Get To Know Me</h2>

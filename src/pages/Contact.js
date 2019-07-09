@@ -1,12 +1,13 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+
+import contactImg from '../img/contactImg.jpeg';
 
 const About = () => {
 	return (
 		<div>
 			<a name="contact" />
 			<div className="pageContainer">
+				<img src={contactImg} />
 				<div className="port" />
 				<div className="skills">
 					<section className="contact">

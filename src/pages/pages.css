@@ -1,8 +1,8 @@
 h2 {
 	font-size: 32px;
-	color: #fff;
-	text-shadow: 1px 1px #000;
-	padding-top: 40px;
+	color: rgb(28, 168, 0);
+	text-shadow: 2px 1px #000;
+	padding: 5px 0;
 }
 
 p {
@@ -18,13 +18,12 @@ p {
 }
 
 .codeBorder {
-	color: rgb(28, 168, 0);
+	color: rgba(235, 235, 235);
 	border: 1px solid black;
 	background: #555;
 	margin-top: 110px;
 	padding: 5px 0;
 	width: 100vw;
-	top: 0;
 }
 
 .aboutMe {
@@ -41,7 +40,7 @@ p {
 }
 
 .skills {
-	background: #ffffff;
+	background: #fff;
 	border: 1px solid rgb(28, 168, 0);
 	box-shadow: 2px 1px 5px #000;
 	margin: 50px 0 150px 0;
@@ -55,9 +54,23 @@ p {
 	position: relative;
 }
 
-h2 {
-	color: rgb(28, 168, 0);
-	text-shadow: 2px 1px #000;
+.pageContainer img {
+	width: 100%;
+	height: 100vh;
+	opacity: 0.1;
+	position: absolute;
+}
+
+.portfolio {
+	position: relative;
+}
+
+.portfolio img {
+	opacity: 0.1;
+	width: auto;
+	height: 100%;
+	position: absolute;
+	left: 0;
 }
 
 .languages {
@@ -126,17 +139,15 @@ button:hover {
 	position: relative;
 }
 
-.portContainer h2 {
-	position: absolute;
-	top: -8%;
-	left: 1;
-}
-
 .backdrops {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin: 40px;
+}
+
+.backdrops h2 {
+	width: 100%;
 }
 
 .backdrop {
@@ -148,6 +159,8 @@ button:hover {
 	margin: 25px;
 	padding: 120px 70px;
 	position: relative;
+	height: 150px;
+	width: 30%;
 }
 
 .backdrop h3 {
@@ -156,7 +169,13 @@ button:hover {
 	padding: 3px 10px;
 	position: absolute;
 	top: 0;
-	right: 35%;
+	left: 35%;
+}
+
+.backdrop p {
+	width: 100%;
+	color: #fff;
+	text-shadow: 1px 1px #000;
 }
 
 .backdrop span {
@@ -175,4 +194,15 @@ button:hover {
 .backdrop span:hover {
 	background-color: gray;
 	color: #fff;
+}
+
+#projectTools {
+	background: #555;
+	border-top: 1px solid #000;
+	color: #fff;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	position: absolute;
+	left: 0;
 }

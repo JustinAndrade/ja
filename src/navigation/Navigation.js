@@ -7,7 +7,7 @@ const Navigation = () => {
 	return (
 		<div className="navbar">
 			<div className="logo">
-				<a href="/" className="mainHeader">
+				<a href="#top" className="mainHeader">
 					<img src={logo} alt="website logo" height="100px" />
 					Justin
 					<span>Andrade</span>
