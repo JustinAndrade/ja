@@ -28,11 +28,15 @@ span {
 }
 
 .navbar {
-	display: flex;
-	padding: 10px;
-	justify-content: space-between;
-	height: 100px;
 	background: #ffffff;
+	border-bottom: 1px solid #555;
+	height: 100px;
+	width: 100%;
+	padding: 10px;
+	z-index: 1;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
 }
 
 .logo {

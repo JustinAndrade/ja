@@ -1,37 +1,53 @@
 h2 {
 	font-size: 32px;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	padding-top: 40px;
 }
 
 p {
 	font-size: 16px;
 }
 
-.homeContainer {
-	height: 716px;
+.pageContainer {
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+}
+
+.codeBorder {
+	border: 1px solid gray;
+	background: rgb(28, 168, 0);
+	margin-top: 110px;
+	padding: 5px 0;
+	width: 100vw;
+	top: 0;
 }
 
 .aboutMe {
-	width: 500px;
-	margin: 20px;
+	width: 800px;
 	padding: 20px;
 }
 
-.aboutMe h2 {
-	font-size: 36px;
+.port {
+	margin-bottom: 150px;
 }
 
 .skills {
 	background: #ffffff;
-	border: 2px solid rgb(28, 168, 0);
+	border: 1px solid rgb(28, 168, 0);
 	box-shadow: 2px 1px 5px #000;
-	width: 800px;
-	margin: 20px;
+	margin: 50px 0 150px 0;
+	width: 1200px;
+	height: 600px;
 	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .skills h2 {
@@ -45,32 +61,30 @@ p {
 }
 
 .contact {
-	height: 600px;
-	padding: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 
 .topInput {
 	margin: 0 20px;
-	padding: 20px 10px;
-	width: 500px;
+	padding: 10px 5px;
+	width: 300px;
 	text-align: start;
 }
 
 .bottomInput {
 	margin: 20px 0;
-	padding: 20px 10px;
-	width: 1065px;
+	padding: 10px 5px;
+	width: 645px;
 	text-align: start;
 }
 
 .messageInput {
-	margin: 20px 0;
 	padding: 20px 10px;
-	width: 1065px;
-	height: 300px;
+	width: 645px;
+	height: 200px;
 	text-align: start;
 }
 
@@ -80,6 +94,7 @@ button {
 	color: #fff;
 	text-shadow: 1px 1px #000;
 	padding: 10px 30px;
+	margin: 30px;
 }
 
 button:hover {
@@ -98,7 +113,7 @@ button:hover {
 	background: #fff;
 	background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg');
 	background-size: 100%;
-	border: 2px solid rgb(28, 168, 0);
+	border: 1px solid #000;
 	box-shadow: 2px 1px 5px #000;
 	margin: 25px;
 	margin-bottom: 150px;

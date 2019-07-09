@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import logo from '../img/logo.jpg';
 
 import './navigation.css';
@@ -16,15 +15,19 @@ const Navigation = () => {
 			</div>
 			<div className="navItems">
 				<ul>
-					<NavLink className="navItem" to="/">
+					<a className="navItem" href="#top">
 						Home
-					</NavLink>
-					<NavLink className="navItem" to="/portfolio">
+					</a>
+
+					<a className="navItem" href="#portfolio">
 						Portfolio
-					</NavLink>
-					<NavLink className="navItem" to="/about">
+					</a>
+					{/* <NavLink className="navItem" to="portContainer">
+						Portfolio
+					</NavLink> */}
+					<a className="navItem" href="#contact">
 						Contact
-					</NavLink>
+					</a>
 					<a
 						href="https://srv-file4.gofile.io/download/twDzCm/JustinAndradeResume.pdf"
 						download="JustinAndradeResume.pdf"
