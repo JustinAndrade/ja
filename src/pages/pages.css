@@ -15,12 +15,12 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	position: relative;
 }
 
 .codeBorder {
-	border: 1px solid gray;
-	background: rgb(28, 168, 0);
+	color: rgb(28, 168, 0);
+	border: 1px solid black;
+	background: #555;
 	margin-top: 110px;
 	padding: 5px 0;
 	width: 100vw;
@@ -28,8 +28,13 @@ p {
 }
 
 .aboutMe {
-	width: 800px;
+	width: 750px;
 	padding: 20px;
+}
+
+.aboutMe span {
+	font-size: 24px;
+	padding-top: 20px;
 }
 
 .port {
@@ -56,8 +61,17 @@ p {
 }
 
 .languages {
+	height: 70px;
+	background: rgba(235, 235, 235);
+	border: 1px solid #555;
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
+}
+
+.icon {
+	display: inline;
+	margin: auto 25px;
 }
 
 .contact {
