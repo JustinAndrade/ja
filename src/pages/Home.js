@@ -1,12 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faHtml5, faCss3Alt, faJsSquare, faNode, faLess } from '@fortawesome/free-brands-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 import './pages.css';
 
 const Home = () => {
 	return (
 		<div className="homeContainer">
+			<div>
+				<FontAwesomeIcon icon={faCode} size="3x" />
+			</div>
 			<div className="aboutMe">
 				<h2>About Me</h2>
 				<p>
