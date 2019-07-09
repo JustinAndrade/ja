@@ -9,9 +9,9 @@ const Portfolio = () => {
 			<a name="portfolio" />
 			<div className="pageContainer">
 				<div className="port" />
-				<div className="skills">
+				<div className="portContainer">
 					<h2>My Recent Work</h2>
-					<div className="portContainer">
+					<div className="backdrops">
 						<div className="backdrop">
 							<h3>Project 1</h3>
 							<div className="projectButtons">
@@ -22,7 +22,7 @@ const Portfolio = () => {
 							</div>
 						</div>
 						<div className="backdrop">
-							<h3>Project 1</h3>
+							<h3>Project 2</h3>
 							<div className="projectButtons">
 								<span>Live</span>
 								<span>
@@ -31,7 +31,34 @@ const Portfolio = () => {
 							</div>
 						</div>
 						<div className="backdrop">
-							<h3>Project 1</h3>
+							<h3>Project 2</h3>
+							<div className="projectButtons">
+								<span>Live</span>
+								<span>
+									<FontAwesomeIcon icon={faGithub} />
+								</span>
+							</div>
+						</div>
+						<div className="backdrop">
+							<h3>Project 4</h3>
+							<div className="projectButtons">
+								<span>Live</span>
+								<span>
+									<FontAwesomeIcon icon={faGithub} />
+								</span>
+							</div>
+						</div>
+						<div className="backdrop">
+							<h3>Project 5</h3>
+							<div className="projectButtons">
+								<span>Live</span>
+								<span>
+									<FontAwesomeIcon icon={faGithub} />
+								</span>
+							</div>
+						</div>
+						<div className="backdrop">
+							<h3>Project 6</h3>
 							<div className="projectButtons">
 								<span>Live</span>
 								<span>

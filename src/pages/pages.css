@@ -34,7 +34,6 @@ p {
 
 .aboutMe span {
 	font-size: 24px;
-	padding-top: 20px;
 }
 
 .port {
@@ -53,9 +52,10 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 }
 
-.skills h2 {
+h2 {
 	color: rgb(28, 168, 0);
 	text-shadow: 2px 1px #000;
 }
@@ -118,9 +118,25 @@ button:hover {
 }
 
 .portContainer {
+	background: #ffffff;
+	border: 1px solid rgb(28, 168, 0);
+	box-shadow: 2px 1px 5px #000;
+	width: 1200px;
+	padding: 20px;
+	position: relative;
+}
+
+.portContainer h2 {
+	position: absolute;
+	top: -8%;
+	left: 1;
+}
+
+.backdrops {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
+	margin: 40px;
 }
 
 .backdrop {
@@ -130,8 +146,7 @@ button:hover {
 	border: 1px solid #000;
 	box-shadow: 2px 1px 5px #000;
 	margin: 25px;
-	margin-bottom: 150px;
-	padding: 150px 100px;
+	padding: 120px 70px;
 	position: relative;
 }
 
