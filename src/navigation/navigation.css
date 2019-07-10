@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 h1 {
 	font-size: 24px;
 	margin: 0 20px;
@@ -21,6 +23,7 @@ span {
 
 .mainHeader {
 	font-size: 32px;
+	font-family: 'Cinzel', sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
