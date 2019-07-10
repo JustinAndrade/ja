@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "569bb594d8ebe581713cc31d8883127a",
+    "revision": "6a703123159b8e810bbfee6204ba4f5a",
     "url": "/ja/index.html"
   },
   {
-    "revision": "a128e7eeec3630490c28",
-    "url": "/ja/static/css/main.ce429aa0.chunk.css"
+    "revision": "23c644bb36072243edec",
+    "url": "/ja/static/css/main.e547fcef.chunk.css"
   },
   {
-    "revision": "54567be715a33a9b504c",
-    "url": "/ja/static/js/2.76a921f9.chunk.js"
+    "revision": "9533d770eab1592b5680",
+    "url": "/ja/static/js/2.18284856.chunk.js"
   },
   {
-    "revision": "a128e7eeec3630490c28",
-    "url": "/ja/static/js/main.9f38a4ae.chunk.js"
+    "revision": "23c644bb36072243edec",
+    "url": "/ja/static/js/main.a502e4e6.chunk.js"
   },
   {
     "revision": "c4f7ba0cb52e2366b0df",
     "url": "/ja/static/js/runtime~main.16fbadc6.js"
+  },
+  {
+    "revision": "99afa93c1819dc45b04f0d48f9580570",
+    "url": "/ja/static/media/MyConjugator.99afa93c.png"
   },
   {
     "revision": "f6c3c979354412c34be803e3c361cf38",
