@@ -1,6 +1,6 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-import { Home, Contact, Portfolio } from './pages/index';
+import { Contact, Portfolio } from './pages/index';
+import Home from './pages/Home/Home.js';
 // import * as Scroll from 'react-scroll';
 // import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 

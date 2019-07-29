@@ -1,69 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-h1 {
-	font-size: 24px;
-	margin: 0 20px;
-}
-
-img {
-	height: 80px;
-	width: auto;
-}
-
-a {
-	color: #000;
-	font-size: 24px;
-	text-decoration: none;
-}
-
-span {
-	color: rgb(28, 168, 0);
-	font-weight: 400;
-}
-
-.mainHeader {
-	font-size: 32px;
-	font-family: 'Cinzel', sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-shadow: 1px 2px 3px #000;
-}
-
 .navbar {
-	background: #ffffff;
-	border-bottom: 1px solid #555;
-	height: 100px;
-	width: 100%;
-	padding: 10px;
-	z-index: 1;
+	background: #607390;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 0px 25px;
+	width: 40em;
+	height: 8em;
+	right: 0%;
 	position: fixed;
+	z-index: 1;
+}
+
+.navbar nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	margin: 5% 30px;
 }
 
-.logo {
-	margin-left: 25px;
-}
-
-.navItems {
-	display: flex;
-	align-content: center;
-	align-self: center;
-}
-
-a.navItem {
-	color: #000;
-	font-size: 18px;
-	padding: 5px 20px;
-	margin: 0 15px;
-	text-decoration: none;
-}
-
-a.navItem:hover {
-	border: 1px solid black;
-	color: rgb(28, 168, 0);
-	text-shadow: 1px 1px #555;
-	opacity: 0.5;
-	box-shadow: 1px 1px #000;
+.navbar nav a {
+	color: #fff;
+	font-family: Skranji;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2.4em;
+	line-height: 33px;
 }

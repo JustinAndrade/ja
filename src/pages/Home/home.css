@@ -1,0 +1,101 @@
+.home {
+	background-image: url('../../img/home-background.jpeg');
+	background-repeat: no-repeat;
+	background-size: 170%;
+	background-position-x: 5%;
+	background-position-y: 32%;
+	height: 100vh;
+	opacity: 0.8;
+	position: relative;
+	display: flex;
+}
+
+.home .home-overlay {
+	background-color: #383d44;
+	height: 100vh;
+	position: relative;
+}
+
+.home-container {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-top: 15em;
+	color: #fff;
+	font-family: Sitara Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-container h1 {
+	margin: 0;
+	font-size: 6.5rem;
+	margin-right: 150px;
+	font-weight: bold;
+	line-height: 156px;
+}
+
+.home-container p {
+	margin: 0;
+	font-size: 3.6em;
+	margin-right: 150px;
+	margin-top: 0;
+}
+
+.home-container span {
+	color: #f0e700;
+}
+
+.home-container button {
+	background: #3d5579;
+	border: 1px solid #555;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 2.4em;
+	font-family: Skranji;
+	width: 150px;
+	height: 50px;
+	margin: 10px 150px 10px 35%;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+}
+
+.home-container button:hover {
+	background: #263041;
+}
+
+.icons {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 25em;
+	color: #fff;
+	font-family: Sitara Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icons .github {
+	cursor: pointer;
+	margin: 20px 0;
+	background: #000;
+	border-radius: 30px;
+}
+.icons .linkedin {
+	cursor: pointer;
+	margin: 20px 0;
+	padding: 5px 10px;
+	background: #0077b5;
+	border-radius: 10px;
+}
+
+.icons .twitter {
+	cursor: pointer;
+	margin: 20px 0;
+	color: #1ca1f2;
+}

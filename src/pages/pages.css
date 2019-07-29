@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan Script');
 
 h2 {
-	font-size: 32px;
-	color: rgb(28, 168, 0);
-	text-shadow: 2px 1px #000;
+	font-size: 3rem;
+	color: rgb(0, 67, 168);
+	text-shadow: 2px 1px rgb(211, 211, 211);
 	padding: 5px 0;
 }
 
 p {
-	font-size: 16px;
+	font-size: 1.1rem;
 }
 
 .pageContainer {
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Kaushan Script';
 	font-weight: 300;
 	padding: 10px;
 	display: flex;
@@ -32,12 +32,13 @@ p {
 }
 
 .aboutMe {
-	width: 750px;
-	padding: 20px;
+	width: 70%;
 }
 
 .aboutMe span {
-	font-size: 24px;
+	text-decoration: underline;
+	font-size: 1.8rem;
+	text-shadow: 1px 1px rgb(211, 211, 211);
 }
 
 .port {
@@ -46,7 +47,7 @@ p {
 
 .skills {
 	background: #fff;
-	border: 1px solid rgb(28, 168, 0);
+	border: 1px solid rgb(211, 211, 211);
 	box-shadow: 2px 1px 5px #000;
 	margin: 50px 0 150px 0;
 	width: 1200px;
@@ -128,7 +129,7 @@ p {
 }
 
 button {
-	background: rgb(28, 168, 0);
+	background: rgb(0, 67, 168);
 	border: 1px solid black;
 	color: #fff;
 	text-shadow: 1px 1px #000;
@@ -138,16 +139,14 @@ button {
 
 button:hover {
 	cursor: pointer;
-	background: #fff;
-	color: rgb(28, 168, 0);
+	background: rgb(0, 44, 110);
 }
 
 .portContainer {
 	background: #ffffff;
-	border: 1px solid rgb(28, 168, 0);
+	border: 1px solid rgb(211, 211, 211);
 	box-shadow: 2px 1px 5px #000;
-	width: 1200px;
-	padding: 20px;
+	width: 90%;
 	position: relative;
 }
 
@@ -159,10 +158,6 @@ button:hover {
 }
 
 .backdrops h2 {
-	display: flex;
-	width: 100%;
-	margin: 0 0 100px 0;
-	padding: 0;
 }
 
 .backdrop {
@@ -194,13 +189,14 @@ button:hover {
 }
 
 .backdrop p {
-	width: 100%;
+	width: 80%;
+	margin: 10px auto;
 	color: #fff;
 	text-shadow: 1px 1px #000;
 }
 
 .backdrop a {
-	background-color: rgb(28, 168, 0);
+	background-color: rgb(0, 67, 168);
 	border: 1px solid #000;
 	color: #fff;
 	cursor: pointer;
@@ -215,7 +211,7 @@ button:hover {
 .backdrop .description {
 	background-color: #f0d91d;
 	border: 1px solid #000;
-	border-radius: 15px;
+	border-radius: 5px;
 	padding: 10px 0;
 	width: 220px;
 	position: absolute;
@@ -228,12 +224,66 @@ button:hover {
 }
 
 #projectTools {
-	background: #555;
-	border-top: 1px solid #000;
+	background: rgb(0, 67, 168);
+	border: 1px solid #000;
+	border-radius: 15px;
 	color: #fff;
-	bottom: 0;
-	width: 100%;
-	display: flex;
-	position: absolute;
-	left: 0;
+	padding: 15px 10px;
+	margin: 10px auto;
+	font-size: 1.6rem;
+	width: 200px;
+}
+
+#projectTools a {
+	color: #fff;
+	margin: 0 10px;
+}
+
+#projectTools .github {
+	background: #000;
+	border-radius: 25px;
+	cursor: pointer;
+	margin: 0 10px;
+}
+
+/* portfolio styles */
+
+.portHeader {
+	padding: 20px 0;
+	z-index: 1;
+	margin-bottom: 20px;
+	padding: 20px 50px;
+	border-bottom: 1px solid #000;
+}
+
+.portHeader h2 {
+	animation-name: slide;
+	animation-direction: alternate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	font-weight: bold;
+	margin: 0;
+	color: #000;
+	text-shadow: 2px 1px rgb(211, 211, 211);
+	text-decoration: underline;
+}
+
+.portHeader p {
+	color: #000;
+	font-size: 1.6rem;
+	margin: 0;
+	padding: 0;
+}
+
+.projectDescription {
+	text-align: left;
+	width: 40%;
+	margin-right: 10%;
+}
+
+.projectDescription h3 {
+	color: rgb(0, 67, 168);
+	text-shadow: 2px 1px rgb(211, 211, 211);
+	font-size: 2rem;
 }
