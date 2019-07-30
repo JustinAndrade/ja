@@ -51,17 +51,24 @@
 
 .home-container button {
 	background: #3d5579;
-	border: 1px solid #555;
-	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+	border: none;
+	box-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
 	color: #fff;
 	cursor: pointer;
 	font-size: 2.4em;
 	font-family: Skranji;
-	width: 150px;
-	height: 50px;
-	margin: 10px 150px 10px 35%;
-	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+	width: 160px;
+	height: 55px;
+	margin: 30px 150px 10px 33%;
+	text-shadow: 0px 100px 1000px rgba(0, 0, 0, 0);
+}
+
+.home-container button p {
+	display: inline;
+	font-size: 1em;
+	text-shadow: 1px 1px #000;
+	margin: 0;
 }
 
 .home-container button:hover {
@@ -92,16 +99,27 @@
 	background: #000;
 	border-radius: 30px;
 }
+.github:hover {
+	opacity: 0.8;
+}
+
 .icons .linkedin {
+	border: 1px solid #000;
 	cursor: pointer;
 	margin: 20px 0;
 	padding: 5px 10px;
 	background: #0077b5;
 	border-radius: 10px;
 }
+.linkedin:hover {
+	opacity: 0.8;
+}
 
 .icons .twitter {
 	cursor: pointer;
 	margin: 20px 0;
 	color: #1ca1f2;
+}
+.twitter:hover {
+	opacity: 0.8;
 }

@@ -1,0 +1,85 @@
+.about {
+	background-image: url('../../img/about-me.jpeg');
+	background-repeat: no-repeat;
+	position: relative;
+	height: 100vh;
+	background-size: 100%;
+	background-position-y: 100%;
+}
+
+.about .page-header {
+	background: #3d5579;
+	display: inline;
+	height: 12em;
+	width: 35em;
+	position: absolute;
+	left: 50px;
+	top: 35px;
+
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about h2 {
+	color: #fff;
+	font-family: Skranji;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 7.2em;
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.about-container {
+	position: relative;
+}
+
+.about-container .about-info {
+	position: absolute;
+	width: 860px;
+	height: 500px;
+	left: 100px;
+	top: 300px;
+
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+}
+
+.about-info p {
+	font-family: Sitara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2.5em;
+	line-height: 36px;
+	text-align: left;
+	padding: 0 20px;
+	color: #607390;
+}
+
+.about-info span {
+	font-weight: bold;
+}
+
+.about-container .about-technologies {
+	position: absolute;
+	width: 450px;
+	height: 750px;
+	left: 1215px;
+	top: 160px;
+
+	background: rgba(255, 255, 255, 0.95);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+}
+
+.about-technologies h3 {
+	font-family: Sitara;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3.6em;
+	line-height: 30px;
+	text-align: center;
+
+	color: #607390;
+}

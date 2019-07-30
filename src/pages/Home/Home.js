@@ -16,7 +16,9 @@ const Home = () => {
 					<p>
 						<span>Full Stack</span> Web & Software Developer
 					</p>
-					<button>Contact Me</button>
+					<button>
+						<p>Contact Me</p>
+					</button>
 				</div>
 				<div className="icons">
 					<a target="#" href="http://www.github.com/justinandrade">

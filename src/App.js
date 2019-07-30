@@ -1,8 +1,7 @@
 import React from 'react';
 import { Contact, Portfolio } from './pages/index';
 import Home from './pages/Home/Home.js';
-// import * as Scroll from 'react-scroll';
-// import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import About from './pages/About/About.js';
 
 import './App.css';
 
@@ -17,8 +16,7 @@ class App extends React.Component {
 				<Navigation />
 				<div>
 					<Home />
-					<Portfolio name="portfolio" />
-					<Contact />
+					<About />
 				</div>
 			</div>
 		);

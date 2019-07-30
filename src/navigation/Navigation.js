@@ -7,10 +7,15 @@ const Navigation = () => {
 	return (
 		<div className="navbar">
 			<nav>
-				<a>Home</a>
-				<a>About</a>
-				<a>Portfolio</a>
-				<a>Resume</a>
+				<a href="_">Home</a>
+				<a href="_">About</a>
+				<a href="_">Portfolio</a>
+				<a
+					href="https://srv-file4.gofile.io/download/twDzCm/JustinAndradeResume.pdf"
+					download="JustinAndradeResume.pdf"
+				>
+					Resume
+				</a>
 			</nav>
 		</div>
 	);
