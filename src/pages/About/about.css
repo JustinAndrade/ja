@@ -5,6 +5,7 @@
 	height: 100vh;
 	background-size: 100%;
 	background-position-y: 100%;
+	margin-bottom: 150px;
 }
 
 .about .page-header {
@@ -21,7 +22,7 @@
 
 .about h2 {
 	color: #fff;
-	font-family: Skranji;
+	font-family: 'Skranji';
 	font-style: normal;
 	font-weight: bold;
 	font-size: 7.2em;
@@ -36,8 +37,8 @@
 
 .about-container .about-info {
 	position: absolute;
-	width: 860px;
-	height: 500px;
+	width: 86em;
+	height: 50em;
 	left: 100px;
 	top: 300px;
 
@@ -53,7 +54,7 @@
 	font-size: 2.5em;
 	line-height: 36px;
 	text-align: left;
-	padding: 0 20px;
+	padding: 0 2em;
 	color: #607390;
 }
 
@@ -63,8 +64,8 @@
 
 .about-container .about-technologies {
 	position: absolute;
-	width: 450px;
-	height: 750px;
+	width: 45em;
+	height: 75em;
 	left: 1215px;
 	top: 160px;
 

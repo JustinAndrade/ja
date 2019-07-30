@@ -2,6 +2,7 @@ import React from 'react';
 import { Contact, Portfolio } from './pages/index';
 import Home from './pages/Home/Home.js';
 import About from './pages/About/About.js';
+import Projects from './pages/Projects/Projects.js';
 
 import './App.css';
 
@@ -15,8 +16,11 @@ class App extends React.Component {
 			<div className="container">
 				<Navigation />
 				<div>
-					<Home />
-					<About />
+					<div className="main-background">
+						<Home />
+						<About />
+						<Projects />
+					</div>
 				</div>
 			</div>
 		);
