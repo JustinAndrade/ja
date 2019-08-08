@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2bdddb4d7409614982dfb2d104325787",
+    "revision": "83309d5e8800ed478c8fe3445651c944",
     "url": "/ja/index.html"
   },
   {
-    "revision": "66a0027da2cc544f5dc8",
-    "url": "/ja/static/css/main.0b57ea94.chunk.css"
+    "revision": "d974dd799f7cbaf54744",
+    "url": "/ja/static/css/main.9d7f439b.chunk.css"
   },
   {
-    "revision": "8b7a0a99533705c81311",
-    "url": "/ja/static/js/2.8d4bd77c.chunk.js"
+    "revision": "ae77cd7fb4f826d90703",
+    "url": "/ja/static/js/2.effadd03.chunk.js"
   },
   {
-    "revision": "66a0027da2cc544f5dc8",
-    "url": "/ja/static/js/main.2149342f.chunk.js"
+    "revision": "d974dd799f7cbaf54744",
+    "url": "/ja/static/js/main.0a3fa8d4.chunk.js"
   },
   {
     "revision": "c4f7ba0cb52e2366b0df",
     "url": "/ja/static/js/runtime~main.16fbadc6.js"
-  },
-  {
-    "revision": "99afa93c1819dc45b04f0d48f9580570",
-    "url": "/ja/static/media/MyConjugator.99afa93c.png"
   },
   {
     "revision": "e6d5a48ccda255e904ccb9f5140bbd2c",
@@ -38,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ce019e13927f5cf1cd7823430aeb08f",
     "url": "/ja/static/media/logo.0ce019e1.jpg"
-  },
-  {
-    "revision": "f1af116341b9f1c5b55f849d2db0f9b1",
-    "url": "/ja/static/media/portImg.f1af1163.jpg"
   },
   {
     "revision": "9b06d13dbcfe5a133896a66a252198be",
