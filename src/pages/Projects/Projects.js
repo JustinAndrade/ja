@@ -4,6 +4,8 @@ import './projects.css';
 
 const Projects = (props) => {
 	return (
+		<div>
+			<a id='projects'/>
 		<div className="projects">
 			<div className="overlay" />
 			<div className="page-header">
@@ -27,7 +29,7 @@ const Projects = (props) => {
 					<div className="project-img" />
 				</div>
 				<div className="project3">
-					<h3>Solid</h3>
+					<h3>Props+</h3>
 					<p>
 						A spanish conjugator, that allows you to conjugate words for studying purposes. This also
 						includes a leveling system. Built with React, Redux, Javascript.
@@ -43,6 +45,7 @@ const Projects = (props) => {
 					<div className="project-img" />
 				</div>
 			</div>
+		</div>
 		</div>
 	);
 };

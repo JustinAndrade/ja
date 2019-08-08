@@ -17,7 +17,7 @@ const Home = () => {
 					<span>Full Stack</span> Web & Software Developer
 				</p>
 				<button>
-					<p>Contact Me</p>
+					<a href='#contact'>Contact Me</a>
 				</button>
 			</div>
 			<div className="icons">

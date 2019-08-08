@@ -4,6 +4,8 @@ import './about.css';
 
 const About = (props) => {
 	return (
+		<div>
+			<a id='about' />
 		<div className="about">
 			<div className="page-header">
 				<h2>About</h2>
@@ -30,6 +32,7 @@ const About = (props) => {
 					<h3>Technologies</h3>
 				</div>
 			</div>
+		</div>
 		</div>
 	);
 };

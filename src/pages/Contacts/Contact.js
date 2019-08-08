@@ -1,18 +1,23 @@
 import React from 'react';
-import './pages.css'
+import './contact.css'
 
-import contactImg from '../img/contactImg.jpeg';
+import contactImg from '../../img/contactImg.jpeg';
 
-const About = () => {
+const Contact = () => {
 	return (
 		<div>
+			<a id='contact' />
+		<div className='contact-me'>
 			<a name="contact" />
+			<div className="page-header">
+				<h2>Contact</h2>
+			</div>
 			<div className="pageContainer">
-				<img src={contactImg} />
+				<img className='contactImg' src={contactImg} />
 				<div className="port" />
 				<div className="skills">
 					<section className="contact">
-						<h2>Let's Connect</h2>
+						<h3>Let's Connect</h3>
 						<form action="https://formspree.io/j.andrade.john@gmail.com" method="POST">
 							<div className="">
 								<div>
@@ -22,10 +27,10 @@ const About = () => {
 								<div className="subjectInput">
 									<input class="bottomInput" type="text" name="subject" placeholder="Subject" />
 								</div>
-								<div className="">
+								<div>
 									<textarea class="messageInput" name="message" placeholder="Message" rows="7" />
 								</div>
-								<div className="">
+								<div>
 									<input type="hidden" name="_next" value="index.html" />
 									<button type="submit" value="Send Message">
 										Send Message
@@ -34,10 +39,11 @@ const About = () => {
 							</div>
 						</form>
 					</section>
+					</div>
 				</div>
-			</div>
+		</div>
 		</div>
 	);
 };
 
-export default About;
+export default Contact;

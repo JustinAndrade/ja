@@ -1,0 +1,102 @@
+.contact-me {   
+    height: 0;
+    position: relative;
+}
+
+.contact-me h2 {
+    color: #fff;
+	font-family: 'Skranji';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 7.2em;
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.contact h3 {
+    color: #3d5579;
+    font-size: 2rem;
+    font-family: 'Skranji';
+    letter-spacing: 10px;
+}
+
+.skills {
+	background: #fff;
+	border: 1px solid rgb(211, 211, 211);
+	box-shadow: 2px 1px 5px #000;
+	margin: 250px 0 0 0;
+	width: 1200px;
+	height: 600px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.pageContainer {
+	font-family: 'Kaushan Script';
+	font-weight: 300;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contactImg {
+    z-index: -1;
+}
+
+.pageContainer img {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.topInput {
+	margin: 0 20px;
+	padding: 10px 5px;
+	width: 300px;
+	text-align: start;
+}
+
+.bottomInput {
+	margin: 20px 0;
+	padding: 10px 5px;
+	width: 645px;
+	text-align: start;
+}
+
+.messageInput {
+	padding: 20px 10px;
+	width: 645px;
+	height: 200px;
+	text-align: start;
+}
+
+.pageContainer button {
+	background: #3d5579;
+	border: none;
+	box-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 2.4em;
+	font-family: Skranji;
+	width: 180px;
+	height: 55px;
+	margin: 30px auto;
+	text-shadow: 0px 100px 1000px rgba(0, 0, 0, 0);
+}
+
+.pageContainer button:hover {
+	background: #2b374b;
+}

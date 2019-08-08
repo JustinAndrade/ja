@@ -1,5 +1,5 @@
 import React from 'react';
-import { Contact, Portfolio } from './pages/index';
+import Contact from './pages/Contacts/Contact.js';
 import Home from './pages/Home/Home.js';
 import About from './pages/About/About.js';
 import Projects from './pages/Projects/Projects.js';
@@ -20,6 +20,7 @@ class App extends React.Component {
 						<Home />
 						<About />
 						<Projects />
+						<Contact />
 					</div>
 				</div>
 			</div>
